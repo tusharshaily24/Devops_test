@@ -3,7 +3,7 @@ def funto(code ,i):
     line1 = 'cout<<"this is added as test line";'
     code.insert(i+1,line1)
 
-file = open('test.cpp','r')
+file = open('test_1.cpp','r')
 
 code=[]
 
@@ -24,7 +24,7 @@ funto(code,i);
 
 file.close()
 
-file = open('test.cpp','w')
+file = open('test_1.cpp','w')
 
 for each in code:
     file.write(each)
