@@ -1,6 +1,6 @@
 
 def funto(code ,i):
-    line1 = 'cout<<"this is added as test line";'
+    line1 = 'cout<<"this is added as live session";'
     code.insert(i+1,line1)
 
 file = open('test_1.cpp','r')
